@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Load Mongoose models from a directory.",
   "main": "lib/index.js",
+  "repository": "justindeguzman/mongoose-model-loader",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
