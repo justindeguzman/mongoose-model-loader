@@ -1,0 +1,14 @@
+{
+  "name": "mongoose-model-loader",
+  "version": "0.0.1",
+  "description": "Load Mongoose models from a directory.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin de Guzman <justin@justindeguzman.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "mongoose": "^4.1.0"
+  }
+}
