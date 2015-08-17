@@ -17,7 +17,7 @@ describe('mongoose-model-loader', function () {
    */
 
   before(function () {
-    loader(__dirname + '/models')
+    loader(__dirname + '/fixtures/models')
   })
 
   /*
