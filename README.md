@@ -7,12 +7,14 @@ Load Mongoose models from a directory
 
 ## Usage
 
-  	var loader = require('mongoose-model-loader')
-  	var mongoose = require('mongoose')
+```js
+var loader = require('mongoose-model-loader')
+var mongoose = require('mongoose')
 
-  	// Loads the models from the directory
-  	loader(__dirname + '/models')
+// Loads the models from the directory
+loader(__dirname + '/models')
 
-	// Access models
-  	var MyModel = mongoose.model('MyModel')
-	var AnotherModel = mongoose.model('AnotherModel')
+// Access models
+var MyModel = mongoose.model('MyModel')
+var AnotherModel = mongoose.model('AnotherModel')
+```
