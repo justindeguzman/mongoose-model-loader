@@ -10,6 +10,9 @@
   "author": "Justin de Guzman <justin@justindeguzman.net>",
   "license": "MIT",
   "devDependencies": {
-    "mongoose": "^4.1.0"
+    "mongoose": "~4.1.0"
+  },
+  "dependencies": {
+    "debug": "~2.2.0"
   }
 }
