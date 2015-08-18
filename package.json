@@ -1,6 +1,6 @@
 {
   "name": "mongoose-model-loader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Load Mongoose models from a directory.",
   "main": "lib/index.js",
   "repository": "justindeguzman/mongoose-model-loader",
