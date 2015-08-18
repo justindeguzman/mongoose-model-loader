@@ -35,4 +35,8 @@ describe('mongoose-model-loader', function () {
   it('should CamelCaps hyphenated model names', function () {
     mongoose.model('BlogPost').should.exist
   })
+
+  it('should load a model that is of type Schema', function () {
+    mongoose.model('Account').should.exist
+  })
 })
